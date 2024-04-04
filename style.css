@@ -123,6 +123,13 @@ button:nth-of-type(6) {
     top: 0%;
     right: 0%;
   }
+
+  button:nth-of-type(16) {
+    margin: 10px;
+    position: absolute;
+    top: 69%;
+    right: 33%;
+  }
 #numbers {
   width: 25%;
 }

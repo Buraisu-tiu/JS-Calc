@@ -1,6 +1,8 @@
 let displayText = document.getElementById("display");
 console.log(displayText);
 
+let num1;
+
 function one() {
   displayText.textContent += "1";
 }
@@ -42,21 +44,48 @@ function zero() {
 }
 
 function plus() {
-    displayText.textContent += "+";
+  displayText.textContent += "+";
 }
 
 function minus() {
-    displayText.textContent += "-";
+  displayText.textContent += "-";
 }
 
 function times() {
-    displayText.textContent += "x";
+  displayText.textContent += "x";
 }
 
 function divide() {
-    displayText.textContent += "/";
+  displayText.textContent += "/";
 }
 
 function erase() {
-    displayText.textContent = "";
+  displayText.textContent = "";
+  num1 = 0;
+}
+
+function calc() {
+  let numbers = displayText.textContent.split(/[+-\/x]/);
+  num1 = numbers[0];
+  num2 = numbers[1];
+  let number1 = parseInt(num1);
+  let number2 = parseInt(num2);
+  let answer = 0;
+  if(displayText.textContent.includes('+')) {
+    answer = number1 + number2;
+  }
+
+  if(displayText.textContent.includes('-')) {
+    answer = number1 - number2;
+  }
+
+  if(displayText.textContent.includes('x')) {
+    answer = number1 * number2;
+  }
+
+  if(displayText.textContent.includes('/')) {
+    answer = number1 / number2;
+  }
+  displayText.textContent = answer;
+  console.log(answer)
 }
