@@ -17,6 +17,7 @@ button {
   height: 100px;
   font-size: 45px;
   display: inline-block;
+  border: 3px solid black;
 }
 
 button:nth-of-type(1) {
@@ -24,6 +25,10 @@ button:nth-of-type(1) {
   position: absolute;
   top: 30%;
   right: 55%;
+  background-color: rgb(37, 37, 37);
+  font-family: "Varela", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 button:nth-of-type(2) {
@@ -31,6 +36,7 @@ button:nth-of-type(2) {
   position: absolute;
   top: 30%;
   right: 44%;
+  background-color: rgb(37, 37, 37);
 }
 
 button:nth-of-type(3) {
@@ -38,6 +44,7 @@ button:nth-of-type(3) {
   position: absolute;
   top: 30%;
   right: 33%;
+  background-color: rgb(37, 37, 37);
 }
 
 button:nth-of-type(4) {
@@ -45,6 +52,7 @@ button:nth-of-type(4) {
   position: absolute;
   top: 43%;
   right: 55%;
+  background-color: rgb(37, 37, 37);
 }
 
 button:nth-of-type(5) {
@@ -52,84 +60,90 @@ button:nth-of-type(5) {
   position: absolute;
   top: 43%;
   right: 44%;
+  background-color: rgb(37, 37, 37);
 }
 
 button:nth-of-type(6) {
-    margin: 10px;
-    position: absolute;
-    top: 43%;
-    right: 33%;
-  }
+  margin: 10px;
+  position: absolute;
+  top: 43%;
+  right: 33%;
+  background-color: rgb(37, 37, 37);
+}
 
-  button:nth-of-type(7) {
-    margin: 10px;
-    position: absolute;
-    top: 56%;
-    right: 55%;
-  }
+button:nth-of-type(7) {
+  margin: 10px;
+  position: absolute;
+  top: 56%;
+  right: 55%;
+  background-color: rgb(37, 37, 37);
+}
 
-  button:nth-of-type(8) {
-    margin: 10px;
-    position: absolute;
-    top: 56%;
-    right: 44%;
-  }
+button:nth-of-type(8) {
+  margin: 10px;
+  position: absolute;
+  top: 56%;
+  right: 44%;
+  background-color: rgb(37, 37, 37);
+}
 
-  button:nth-of-type(9) {
-    margin: 10px;
-    position: absolute;
-    top: 56%;
-    right: 33%;
-  }
+button:nth-of-type(9) {
+  margin: 10px;
+  position: absolute;
+  top: 56%;
+  right: 33%;
+  background-color: rgb(37, 37, 37);
+}
 
-  button:nth-of-type(10) {
-    margin: 10px;
-    position: absolute;
-    top: 69%;
-    right: 44%;
-  }
+button:nth-of-type(10) {
+  margin: 10px;
+  position: absolute;
+  top: 69%;
+  right: 44%;
+  background-color: rgb(37, 37, 37);
+}
 
-  button:nth-of-type(11) {
-    margin: 10px;
-    position: absolute;
-    top: 30%;
-    right: 22%;
-  }
+button:nth-of-type(11) {
+  margin: 10px;
+  position: absolute;
+  top: 30%;
+  right: 22%;
+}
 
-  button:nth-of-type(12) {
-    margin: 10px;
-    position: absolute;
-    top: 43%;
-    right: 22%;
-  }
+button:nth-of-type(12) {
+  margin: 10px;
+  position: absolute;
+  top: 43%;
+  right: 22%;
+}
 
-  button:nth-of-type(13) {
-    margin: 10px;
-    position: absolute;
-    top: 56%;
-    right: 22%;
-  }
+button:nth-of-type(13) {
+  margin: 10px;
+  position: absolute;
+  top: 56%;
+  right: 22%;
+}
 
-  button:nth-of-type(14) {
-    margin: 10px;
-    position: absolute;
-    top: 69%;
-    right: 22%;
-  }
+button:nth-of-type(14) {
+  margin: 10px;
+  position: absolute;
+  top: 69%;
+  right: 22%;
+}
 
-  button:nth-of-type(15) {
-    margin: 10px;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-  }
+button:nth-of-type(15) {
+  margin: 10px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
 
-  button:nth-of-type(16) {
-    margin: 10px;
-    position: absolute;
-    top: 69%;
-    right: 33%;
-  }
+button:nth-of-type(16) {
+  margin: 10px;
+  position: absolute;
+  top: 69%;
+  right: 33%;
+}
 #numbers {
   width: 25%;
 }
